@@ -1,0 +1,45 @@
+body{
+    margin:auto;
+}
+
+.container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.message{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    background-color: #b3651c;
+    font-family: cursive ;
+    justify-content: center;
+}
+
+#tentative{
+    size: 50px;
+}
+
+.vies{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.coeur{
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+}
+
+.fethi{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
