@@ -58,7 +58,7 @@ function tenta() {
     message.innerHTML = `Qu'est ce que t'as pas compris ? T'as perdu. PER-DU`;
     vie--;
     setTimeout(function MyFunc() {document.location.reload(true);}, 20000);
-  } else if (vie > 1) {
+  } else if (vie >= 1) {
     if (tentative.value < valeur) {
       message.innerHTML = "C'est plus!";
       tentative.value = "";
