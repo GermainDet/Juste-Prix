@@ -41,6 +41,7 @@ function chargervie() {
     let newimage = document.createElement("img");
     newimage.classList.add("coeur");
     newimage.src = "images/coeur.png";
+    newimage.alt = "coeur";
     vies.appendChild(newimage);
   }
 }
